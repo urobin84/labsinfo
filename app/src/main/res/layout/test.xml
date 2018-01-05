@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_below="@+id/textView3"
+        android:adjustViewBounds="false"
+        android:baselineAlignBottom="false"
+        android:maxHeight="200dp"
+        android:maxWidth="100dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/fblanko"
+        tools:ignore="ContentDescription,UnknownId,UnknownIdInLayout"
+        android:contentDescription="" />
+</LinearLayout>

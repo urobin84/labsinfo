@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="UseCompoundDrawables">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="@string/pindah_jadwal"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorPrimary" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView70"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center"
+                    android:text="@string/noa" />
+
+                <TextView
+                    android:id="@+id/textView66"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pindah_jadwal_dilakukan_selambat_lambatnya_h_1_sebelum_praktikum_kelas_praktikum_dimulai" />
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView79"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center"
+                    android:text="@string/nob" />
+
+                <TextView
+                    android:id="@+id/textView78"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/form_pindah_jadwal_diisi_oleh_ketua_asisten_atau_pj_shift_yang_sedang_bertugas" />
+
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView81"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center"
+                    android:text="@string/noc" />
+
+                <TextView
+                    android:id="@+id/textView80"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bagi_praktikan_yang_mengajukan_pindah_jadwal_harap_memberikan_surat_permohonan_atau_bukti_lainnya_yang_disimpan_oleh_pihak_labsi_di_tempat_yang_telah_disediakaan" />
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView83"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center"
+                    android:text="@string/nod" />
+
+                <TextView
+                    android:id="@+id/textView82"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/form_pindah_jadwal_yang_telah_diisi_di_copy_sebanyak_2_rangkap_oleh_praktikan" />
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView100"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center"
+                    android:text="@string/a" />
+
+                <TextView
+                    android:id="@+id/textView101"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tembusan disimpan oleh PJ Shift / Staff" />
+
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView103"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center"
+                    android:text="@string/b" />
+
+                <TextView
+                    android:id="@+id/textView101"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Asli disimpan oleh praktikan" />
+
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView105"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center"
+                    android:text="@string/c" />
+
+                <TextView
+                    android:id="@+id/textView106"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fotocopyan diberikan kepada ketua Asisten kelas (kelas asal dan pindahan)" />
+
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <ImageButton
+                android:id="@+id/fpjadwal"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="false"
+                android:background="@android:drawable/list_selector_background"
+                android:contentDescription=""
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/pindahjadwalform"
+                tools:ignore="ContentDescription" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textView77"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="klik untuk liahat gambar"
+                    tools:ignore="HardcodedText" />
+
+            </TableRow>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

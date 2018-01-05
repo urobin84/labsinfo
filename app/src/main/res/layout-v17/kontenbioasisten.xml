@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@android:color/background_light"
+                android:gravity="center"
+                android:text="@string/biodata"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            android:paddingEnd="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context="com.aji.voley1.MainActivity">
+
+            <ImageView
+                android:id="@+id/imghp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <TableRow
+                android:id="@+id/trid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imghp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/txttid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:text=" ID                 : "
+                    tools:text=" ID                   :" />
+
+                <TextView
+                    android:id="@+id/txtidasisten"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:text="Id" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/trnpm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/trid"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/txttnpm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignTop="@+id/txtnpm"
+                    android:text="NPM             : "
+                    tools:text="NPM               :" />
+
+                <TextView
+                    android:id="@+id/txtnpm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/txtidasisten"
+                    android:layout_toEndOf="@+id/txttnpm"
+                    android:text="NPM" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/trnama"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/trnpm"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/txttnama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignTop="@+id/txtnama"
+                    android:text="Nama           : "
+                    tools:text="Nama             :" />
+
+                <TextView
+                    android:id="@+id/txtnama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/txtnpm"
+                    android:layout_toEndOf="@+id/txttnama"
+                    android:text="Nama" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/trkelas"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/trnama"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/txttkelas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignTop="@+id/txtkelas"
+                    android:text="Kelas            : "
+                    tools:text="Kelas              :" />
+
+                <TextView
+                    android:id="@+id/txtkelas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/txtnama"
+                    android:layout_toEndOf="@+id/txttkelas"
+                    android:text="Kelas" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tremail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/trkelas"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/txttemail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/txtemail"
+                    android:layout_alignBottom="@+id/txtemail"
+                    android:layout_alignParentStart="true"
+                    android:text="Email            : "
+                    tools:text="Email              :" />
+
+                <TextView
+                    android:id="@+id/txtemail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/txtkelas"
+                    android:layout_toEndOf="@+id/txttemail"
+                    android:text="Email" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/trttl"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="false"
+                android:layout_below="@+id/tremail"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/txttttl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignTop="@+id/txtttl"
+                    android:text="TTL               : "
+                    tools:text="TTL                 :" />
+
+                <TextView
+                    android:id="@+id/txtttl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/txtemail"
+                    android:layout_toEndOf="@+id/txttttl"
+                    android:text="TTL" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/trjabatan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/trttl"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/txttjabatan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignTop="@+id/txtjabatan"
+                    android:text="Jabatan       : "
+                    tools:text="Jabatan         :" />
+
+                <TextView
+                    android:id="@+id/txtjabatan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/txtttl"
+                    android:layout_toEndOf="@+id/txttjabatan"
+                    android:text="Jabatan" />
+            </TableRow>
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

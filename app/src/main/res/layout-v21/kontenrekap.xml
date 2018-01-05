@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2dp"
+    android:orientation="vertical"
+    android:padding="2dp"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        <TextView
+            android:id="@+id/txtvtkontenrekap"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/rekapv"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title" />
+
+            <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_margin="2dp"
+                    android:text="@string/kelas_administrasi" />
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Spinner
+                    android:id="@+id/spinner5"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="0.06"
+                    android:background="@color/colorPrimaryDark"
+                    android:dropDownWidth="300dp"
+                    android:gravity="fill_horizontal|center" />
+            </TableRow>
+
+            <Space
+            android:layout_width="match_parent"
+            android:layout_height="7dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_margin="2dp"
+            android:text="@string/jabatan" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+        <Spinner
+            android:id="@+id/spinner6"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="2dp"
+            android:background="@color/colorPrimaryDark"
+            android:dropDownWidth="300dp"
+            android:gravity="fill_horizontal|center" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="7dp" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_margin="2dp"
+            android:text="@string/namahari" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+        <Spinner
+            android:id="@+id/spinner13"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="2dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.83">
+
+            <TableRow
+                android:id="@+id/sp1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/hari" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/bulan" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/tahun"
+                    tools:ignore="RtlHardcoded" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/sp2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Spinner
+                    android:id="@+id/spinner12"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimaryDark" />
+
+                <Spinner
+                    android:id="@+id/spinner11"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimaryDark" />
+
+                <Spinner
+                    android:id="@+id/spinner10"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimaryDark" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/sp3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/shift" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/kelas" />
+
+                <TextView
+                    android:id="@+id/textView51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/kondisi" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/sp4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Spinner
+                    android:id="@+id/spinner15"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimaryDark" />
+
+                <Spinner
+                    android:id="@+id/spinner14"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimaryDark" />
+
+                <Spinner
+                    android:id="@+id/spinnerkpsp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimaryDark" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/sp5"
+                android:layout_width="match_parent"
+                android:layout_height="2dp">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:text="@string/penanggung_jawab" />
+
+        </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Spinner
+            android:id="@+id/spinner16"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="2dp"
+            android:background="@color/colorPrimaryDark" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/buttonadd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/buttonrekap" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/buttonBack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/button" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

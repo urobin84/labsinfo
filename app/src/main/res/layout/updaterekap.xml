@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView140"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Update Rekap"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/idviewup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp">
+
+                    <TableRow
+                        android:id="@+id/Tahuntru"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView138"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tahun" />
+
+                        <TextView
+                            android:id="@+id/textView146"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=":" />
+
+                        <Spinner
+                            android:id="@+id/thsp"
+                            android:layout_width="238dp"
+                            android:layout_height="45dp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/Kelastru"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView131"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Kelas" />
+
+                        <TextView
+                            android:id="@+id/textView148"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/titikdua" />
+
+                        <Spinner
+                            android:id="@+id/klssp"
+                            android:layout_width="230dp"
+                            android:layout_height="45dp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/haritru"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView139"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="Hari" />
+
+                        <TextView
+                            android:id="@+id/textView143"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=":" />
+
+                        <Spinner
+                            android:id="@+id/hrisp"
+                            android:layout_width="230dp"
+                            android:layout_height="45dp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/Shifttru"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView137"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Shift" />
+
+                        <TextView
+                            android:id="@+id/textView147"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/titikdua" />
+
+                        <Spinner
+                            android:id="@+id/shftsp"
+                            android:layout_width="230dp"
+                            android:layout_height="45dp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/Administrasitru"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView136"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="Administrasi" />
+
+                        <TextView
+                            android:id="@+id/textView141"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=":" />
+
+                        <Spinner
+                            android:id="@+id/admsp"
+                            android:layout_width="230dp"
+                            android:layout_height="45dp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/kondisitru"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView132"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Kondisi" />
+
+                        <TextView
+                            android:id="@+id/textView149"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/titikdua" />
+
+                        <Spinner
+                            android:id="@+id/konsp"
+                            android:layout_width="230dp"
+                            android:layout_height="45dp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/Tanggaltru"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView135"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tanggal" />
+
+                        <TextView
+                            android:id="@+id/textView144"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=":" />
+
+                        <Spinner
+                            android:id="@+id/tglsp"
+                            android:layout_width="230dp"
+                            android:layout_height="45dp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/Pjtru"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView134"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="PJ" />
+
+                        <TextView
+                            android:id="@+id/textView150"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/titikdua" />
+
+                        <Spinner
+                            android:id="@+id/pjsp"
+                            android:layout_width="230dp"
+                            android:layout_height="45dp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tugastru"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView133"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="Tugasa" />
+
+                        <TextView
+                            android:id="@+id/textView142"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=":" />
+
+                        <Spinner
+                            android:id="@+id/tgssp"
+                            android:layout_width="230dp"
+                            android:layout_height="45dp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/Bulantru"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView128"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bulan" />
+
+                        <TextView
+                            android:id="@+id/textView145"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=":" />
+
+                        <Spinner
+                            android:id="@+id/blnsp"
+                            android:layout_width="230dp"
+                            android:layout_height="45dp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <Space
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content" />
+
+                        <Button
+                            android:id="@+id/buttonUpdate"
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:text="Update"
+                            android:textAlignment="center"
+                            android:visibility="visible" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <Space
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content" />
+
+                        <Button
+                            android:id="@+id/buttonBackr"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:text="Kembali"
+                            android:textAlignment="center" />
+                    </TableRow>
+
+                </TableLayout>
+
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

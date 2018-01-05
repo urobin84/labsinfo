@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/backgroundsplashr"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.21"
+        android:gravity="center"
+        android:text="@string/lab"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@color/btn_login_bg"
+        android:textColorHighlight="@android:color/background_light"
+        android:textColorLink="@color/white" />
+
+    <ImageView
+        android:id="@+id/imageViewSC"
+        android:layout_width="match_parent"
+        android:layout_height="324dp"
+        android:adjustViewBounds="false"
+        android:contentDescription=""
+        android:visibility="visible"
+        app:srcCompat="@mipmap/imgloadingic"
+        tools:ignore="ContentDescription" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.13" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:gravity="center"
+        android:text="@string/labsi"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title.Inverse"
+        android:textColor="?attr/colorPrimary" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.21"
+        android:gravity="center"
+        android:text="@string/universitas_gunadarma"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title.Inverse"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/txtV2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.19"
+        android:gravity="center"
+        android:text="@string/copyright2017" />
+
+</LinearLayout>

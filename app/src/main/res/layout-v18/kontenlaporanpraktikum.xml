@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="@string/laporan_praktikum"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorPrimary" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView113"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center"
+                    android:text="@string/noa" />
+
+                <TextView
+                    android:id="@+id/textView112"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/laporan_akhir_praktikum" />
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Space
+                    android:layout_width="40dp"
+                    android:layout_height="7dp" />
+
+                <TextView
+                    android:id="@+id/textView114"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/a" />
+
+                <TextView
+                    android:id="@+id/textView115"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kerjakan_dengan_editor_text_kemudian_di_cetak" />
+
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView117"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/b" />
+
+                <TextView
+                    android:id="@+id/textView116"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tuliskanlah_soal_yang_diberikan_oleh_tutor" />
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView119"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/c" />
+
+                <TextView
+                    android:id="@+id/textView118"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sertakan_logika_penalaran_dari_listing_program_yang_tertera" />
+
+            </TableRow>
+
+            <ImageButton
+                android:id="@+id/imageButtonla"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:background="@android:drawable/list_selector_background"
+                android:contentDescription=""
+                android:cropToPadding="false"
+                android:elevation="0dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/la"
+                tools:ignore="ContentDescription" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView121"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center"
+                    android:text="@string/nob" />
+
+                <TextView
+                    android:id="@+id/textView120"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/laporan_pendahuluan_praktikum" />
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView123"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/a" />
+
+                <TextView
+                    android:id="@+id/textView122"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kerjakan_dengan_mesin_tik_manual" />
+
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Space
+                    android:layout_width="40dp"
+                    android:layout_height="7dp" />
+
+                <TextView
+                    android:id="@+id/textView125"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/b" />
+
+                <TextView
+                    android:id="@+id/textView124"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tuliskanlah_soal_yang_diberikan_oleh_tutor" />
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView127"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/c" />
+
+                <TextView
+                    android:id="@+id/textView126"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sertakan_logika_penalaran_dari_listing_program_yang_tertera" />
+            </TableRow>
+
+            <ImageButton
+                android:id="@+id/imageButtonlp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@android:drawable/list_selector_background"
+                android:contentDescription=""
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/lp"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

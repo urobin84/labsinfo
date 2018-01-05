@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="@string/peraturan_praktikum"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorPrimary" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView107"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center"
+                    android:text="@string/noa" />
+
+                <TextView
+                    android:id="@+id/textView104"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Asisten Diharapkan hadir dan sudah mempersiapkan ruangan lab 10 menit sebelum praktikum dimulai."
+                    tools:ignore="HardcodedText" />
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView109"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center"
+                    android:text="@string/nob" />
+
+                <TextView
+                    android:id="@+id/textView108"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bagi asisten yang berhalangan hadir, terlambat atau pengganti harap lapor kepada ketua atau PJ Shift yang bertugas." />
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView109"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center"
+                    android:text="@string/noc" />
+
+                <TextView
+                    android:id="@+id/textView108"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Asisten diharapkan menginput rekap pada hari yang sama saat asisten bertugas, apabila lewat dari batas waktu yang telah ditentukan maka asisten harus meginput rekap di ruangan E431." />
+            </TableRow>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

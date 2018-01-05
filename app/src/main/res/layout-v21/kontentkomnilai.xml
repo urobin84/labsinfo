@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="@string/komplain_nilai_praktikum"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorPrimary" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView85"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center"
+                    android:text="@string/noa" />
+
+                <TextView
+                    android:id="@+id/textView84"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mahasiswa melakukan pengaduan dengan membawa bukti hasil cetak DNS ke loket BAAK" />
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView87"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center"
+                    android:text="@string/nob" />
+
+                <TextView
+                    android:id="@+id/textView86"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Petugas loket menerima berkas dan memeriksa komposisi nilai di Komputer." />
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView89"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center"
+                    android:text="@string/noc" />
+
+                <TextView
+                    android:id="@+id/textView88"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Petugas loket memberikan komponen nilai di lembar cetak nilai dari mahasiswa." />
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView91"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center"
+                    android:text="@string/nod" />
+
+                <TextView
+                    android:id="@+id/textView90"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mahasiswa melihat komponen nilai." />
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView93"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center"
+                    android:text="@string/noe" />
+
+                <TextView
+                    android:id="@+id/textView92"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jika ada yang di complain petugas loket akan membuatkan bukti Komplain DNS." />
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView95"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center"
+                    android:text="@string/nof" />
+
+                <TextView
+                    android:id="@+id/textView94"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mahasiswa menerima bukti komplain DNS." />
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView97"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center"
+                    android:text="@string/nog" />
+
+                <TextView
+                    android:id="@+id/textView96"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mahasiswa kembali melakukan pengecekan nilai di studentsite secara berkala sampai waktu yang ditentukan." />
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView99"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center"
+                    android:text="@string/noh" />
+
+                <TextView
+                    android:id="@+id/textView98"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jika nilai tidak kunjung berubah Mahasiswa kembali melapor ke loket dengan membawa bukti pengaduan." />
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TextView
+                android:id="@+id/textView102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Catatan Labsi"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="*Pihak laboratorium hanya diperbolehkan memberikan transkrip nilai kepada staff Gunadarma terkait pengecekan nilai mahasiswa yang sudah diajukan ke loket BAAK. " />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

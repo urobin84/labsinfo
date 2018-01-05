@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.uye.labsinfo">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/iconapp"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".loading">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main" />
+        <activity android:name=".iadministrasi" />
+        <activity android:name=".iasisten" />
+        <activity android:name=".iperaturan" />
+        <activity android:name=".developer" />
+        <activity android:name=".help" />
+        <activity android:name="kontenlabsinfo.praktikanrules" />
+        <activity android:name="kontenlabsinfo.rekap" />
+        <activity android:name="kontenlabsinfo.asistenrules" />
+        <activity android:name="kontenlabsinfo.laporanrules" />
+        <activity android:name="kontenlabsinfo.jadwal" />
+        <activity android:name="kontenlabsinfo.lihatjadwal" />
+        <activity android:name="kontenlabsinfo.blankoadm" />
+        <activity android:name="kontenlabsinfo.komplainnilaiadm" />
+        <activity android:name="kontenlabsinfo.gabunganadm" />
+        <activity android:name="kontenlabsinfo.bioasisten" />
+        <activity android:name="kontenlabsinfo.izinadm" />
+        <activity android:name="kontenlabsinfo.picblanko" />
+        <activity android:name="kontenlabsinfo.picfipjadwal" />
+        <activity android:name="kontenlabsinfo.picla" />
+        <activity android:name="kontenlabsinfo.piclp" />
+        <activity
+            android:name="kontenlabsinfo.tampilrekaptest"
+            android:parentActivityName=".iasisten">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".iasisten" />
+        </activity>
+        <activity android:name=".loginvolley" />
+        <activity
+            android:name=".nointernet"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_nointernet"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity android:name="kontenlabsinfo.nointernet"></activity>
+        <activity android:name="kontenlabsinfo.updaterekap"></activity>
+    </application>
+
+</manifest>

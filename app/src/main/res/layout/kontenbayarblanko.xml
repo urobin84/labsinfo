@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:orientation="vertical"
+        android:padding="3dp">
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/pengisian_blanko"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title"
+            android:textColor="@color/bg_register" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimary" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="7dp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="75dp">
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:gravity="top|center"
+                android:text="@string/noa" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="top|left"
+                android:text="@string/blanko_pengulangan_praktikum_labsi_diberikan_kepada_praktikan_yang_alfa_kurang_dari_batas_maksimal_1x_untuk_4_pertemuan_dan_tidak_di_delete_sebelum_minggu_ujian"
+                tools:ignore="RtlHardcoded" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="75dp">
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:gravity="top|center"
+                android:text="@string/nob" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/pengisian_blanko_dilakukan_oleh_ketua_asisten_pada_minggu_ke_3_sedangkan_untuk_perpanjang_masa_berlaku_blanko_boleh_dilakukan_oleh_pj_shift_atau_ketu_pada_minggu_ujian" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:gravity="top|center"
+                android:text="@string/noc" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hal_hal_yang_harus_diperhatikan_dalam_pengisian_blanko" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/a" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tanggal_pemberian_blanko"
+                tools:ignore="DuplicateIds" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/b" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tanggal_penerimaan_blanko"
+                tools:ignore="DuplicateIds" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/c" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nomor_blanko" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:gravity="top|center"
+                android:text="@string/d" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pemberian_label_praktikum_dan_inisial_ketua_asisten"
+                tools:ignore="DuplicateIds" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:gravity="top|center"
+                android:text="@string/e" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jumlah_maksimal_mahasiswa_yang_tercantum_dalam_satu_blanko_adalah_5"
+                tools:ignore="DuplicateIds" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:gravity="top|center"
+                android:text="@string/f" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/blanko_dapat_diperpanjang_maksimal_1_hari_kerja_hari_ujian"
+                tools:ignore="DuplicateIds" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/fblankokb"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:contentDescription=""
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/fblanko"
+                tools:ignore="ContentDescription" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="klik untuk liahat gambar"
+                tools:ignore="HardcodedText" />
+
+        </TableRow>
+
+    </LinearLayout>
+</ScrollView>
+
